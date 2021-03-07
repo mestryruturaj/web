@@ -1,0 +1,249 @@
+/* Colors Used >>>
+font-family: 'Lato', sans-serif;
+Company Name = #5783CA;
+Main Section Background-Color = #FBFCFC;
+box-shadow: #808080;
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background-color:#d8cca9;
+	
+}
+.container_12{
+	margin: 40px auto;
+	background-color:white;
+	box-shadow: -1px -1px 10px 1px #808080;
+}
+
+
+/* Row_1: Header Start */
+.logo{
+	height: 200px;
+}
+ 
+.logo img{
+	height: 100%;
+}
+
+.cname {
+	height: 200px;
+	
+	font-size: 55px;
+	font-weight: 700;
+	text-align:center;
+	color: #5783CA;
+	padding-top: 60px;
+}
+	
+/* Row_1: Header Start */
+
+/* Row_2: Navigation Bar Start  */
+.nav{
+	height:50px;
+	margin-top: 5px;
+	background-color: #5783CA;
+	text-align: center;
+	
+	transition-duration: .25s;
+ }
+ 
+.nav a{
+	display:block;
+	width: 100%;
+	height: 100%;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 700;
+	color:white;
+	padding-top:15px;
+	
+ }
+ 
+ .nav:hover{
+	transform:translateY(-5px);
+	box-shadow: 1px 6px 10px 0px #808080; 
+ }
+/* Row_2: Navigation Bar End  */
+
+
+/* Row_3: Services Section Start */
+
+.mbanking{
+	background-color: #FBFCFC;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.service_heading{
+	margin-top: 10px;
+	background-color:#FBFCFC;
+	text-transform: uppercase;
+	padding: 8px 18px;
+	background-image:linear-gradient(to right, white 25% , #5783CA );
+	box-shadow: 1px 1px 3px #808080;
+}
+
+
+
+.service {
+	background-color:#FBFCFC;
+	width:30%;
+	float: left;
+	margin: 10px 1.5%;
+	
+	text-align: center;
+	padding: 10px;
+	box-shadow: -1px -1px 5px 1px #808080;
+}
+
+.service h4 {
+	text-transform: uppercase;
+}
+
+.service p{
+	text-align: justify;
+}
+
+
+
+.btn a{
+	margin: 5px auto;
+	width: 70%;
+	display: block;
+	background-color: orange;
+	border-radius: 100px;
+	
+	text-decoration: none;
+	
+	padding: 6px 8px 8px;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+.btn a{
+	transition-duration: .25s;
+	box-shadow:0px 3px 5px #808080;
+}
+
+.btn a:hover{
+	transform:translateY(-5px) scale(1.1);
+	box-shadow: 1px 6px 20px 0px #808080;
+	background-color:#FF8C00;
+}
+
+
+/* Row_3: Services Section End */
+
+/* Row_4: Footer Section Start */
+.footer_box{
+	background-color:#5783CA;
+	margin-top: 10px;
+	width: 960px;
+			
+}
+
+.footer_box .card{
+	margin: 10px 45px;
+	text-align: left;
+	color: white;
+}
+
+.card h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 5px;
+	border-bottom-width: 3px;
+	border-bottom-style: dotted;
+	border-bottom-color: orange;
+}
+
+.card ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.card ul li{
+	margin: 5px 0px;
+}
+
+.card a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+.card a{
+	transition-duration: 0.25s;
+}
+
+.card a:hover{
+	color: orange;
+	transform: scale(1.1) translateX(3px);
+}
+
+
+.copyright{
+	background-color:#5783CA;
+}
+
+.copyright .part{
+	border-top-style: solid;
+	border-top-color: #121248;
+	border-bottom-width:2px;
+	margin-top: 10px;
+	width: 50%;
+	float: left;
+	
+	padding: 15px;
+	color: white;
+}
+
+#part2{
+	text-align: right;
+}
+	
+/* Row_4: Footer Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

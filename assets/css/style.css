@@ -1,0 +1,277 @@
+/* Colors Used >>>
+font-family: 'Lato', sans-serif;
+Company Name = #5783CA;
+Main Section Background-Color = #FBFCFC
+box-shadow: #808080;
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	background-color:#d8cca9;
+	
+}
+.container_12{
+	margin: 40px auto;
+	background-color:white;
+	box-shadow: -1px -1px 10px 1px #808080;
+}
+
+/* Row_1: Header Start */
+.logo{
+	height: 200px;
+}
+ 
+.logo img{
+	height: 100%;
+}
+
+.cname {
+	height: 200px;
+	
+	font-size: 55px;
+	font-weight: 700;
+	text-align:center;
+	color: #5783CA;
+	padding-top: 60px;
+}
+	
+/* Row_1: Header Start */
+
+/* Row_2: Navigation Bar Start  */
+.nav{
+	height:50px;
+	margin-top: 5px;
+	background-color: #5783CA;
+	text-align: center;
+	
+	transition-duration: .25s;
+ }
+ 
+.nav a{
+	display:block;
+	width: 100%;
+	height: 100%;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 700;
+	color:white;
+	padding-top:15px;
+	
+ }
+ 
+ .nav:hover{
+	transform:translateY(-5px);
+	box-shadow: 1px 6px 10px 0px #808080; 
+ }
+/* Row_2: Navigation Bar End  */
+
+/* Row_3: Mobile Banking Start */
+.mbanking{
+	background-image:linear-gradient(to right, white 25% , #5783CA );
+	box-shadow: 1px 1px 3px #808080;
+	margin-top: 5px;
+	padding: 20px;
+}
+
+/* Row_3: Mobile Banking End */
+ 
+/* Row_4: Main Section Start */
+.services_box{
+	height: 480px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.services_box h3 {
+	padding: 10px 0;
+	box-shadow: 1px 1px 3px #808080;
+	background-image:linear-gradient(to right, white 25% , #5783CA );
+}
+
+.service{
+	text-align: justify;
+	margin-left: 28px;
+}
+
+.service h4{
+	text-align: center;
+}
+	
+.ebanking_box{
+	height: 480px;
+	margin-top: 10px;
+	text-align: center;
+}
+.ebanking_box h3{
+	padding: 10px 0;
+	box-shadow: 1px 1px 3px #808080;
+	background-image:linear-gradient(to right, white 25% , #5783CA );
+}
+.ebanking img{
+	margin-top: 10px;
+	height: 320px;
+}
+
+.ebanking a{
+	margin: 0px auto;
+	margin-top: 30px;
+	width: 70%;
+	display: block;
+	background-color: orange;
+	border-radius: 100px;
+	
+	text-decoration: none;
+	padding: 7px;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+
+.btn a{
+	box-shadow:0px 3px 5px #808080;
+	transition-duration: .25s;
+}
+
+.btn a:hover{
+	transform:translateY(-5px) scale(1.1);
+	box-shadow: 1px 6px 20px 0px #808080;
+	background-color:#FF8C00;
+}
+/* Row_4: Main Section End */
+
+/* Row_5: Contact Us Section Start */
+.contact{
+	height: 500px;
+	margin-top:20px;
+	background-color:#FBFCFC;
+}
+
+.map{
+	height: 310px;
+}
+
+.contact iframe{
+	height:500px;
+}
+
+
+.add{
+
+	text-align: justify;
+	margin-bottom: 30px;
+	
+}
+/* Row_5: Contact Us Section End */
+
+/* Row_6: Footer Section Start */
+.footer_box{
+	background-color:#5783CA;
+	margin-top: 10px;
+	width: 960px;
+}
+
+.footer_box .card{
+	margin: 10px 45px;
+	text-align: left;
+	color: white;
+}
+
+.card h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 5px;
+	border-bottom-width: 3px;
+	border-bottom-style: dotted;
+	border-bottom-color: orange;
+}
+
+.card ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.card ul li{
+	margin: 5px 0px;
+}
+
+.card a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+.card a{
+	transition-duration: 0.25s;
+}
+
+.card a:hover{
+	color: orange;
+	transform: scale(1.1) translateX(3px);
+}
+
+.copyright{
+	background-color:#5783CA;
+}
+
+.copyright .part{
+	border-top-style: solid;
+	border-top-color: #121248;
+	border-bottom-width:2px;
+	margin-top: 10px;
+	width: 50%;
+	float: left;
+	
+	padding: 15px;
+	color: white;
+}
+
+#part2{
+	text-align: right;
+}
+	
+/* Row_6: Footer Section End */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
